@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Spanish Memory Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Spanish Memory Game</h1>
+      <div id="word-set">
+        <input class="radio" type="radio" id="verbs" name="words" type="radio" value="0" onclick="start()" checked />
+        <label for="verbs">Verbs</label>
+
+        <input class="radio" type="radio" id="colors" name="words" value="1" onclick="start()" />
+        <label for="colors">Colors</label>
+
+        <input class="radio" type="radio" id="animals" name="words" value="2" onclick="start()" />
+        <label for="animals">Animals</label>
+
+        <input class="radio" type="radio" id="emotions" name="words" value="3" onclick="start()" />
+        <label for="emotions">Emotions</label>
+      </div>
+    </header>
+    <main>
+      <section id="cards-wrapper">
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+        <div class="card">
+          <div class="card-front"></div>
+          <div class="card-back"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Want to contribute? Fork me on <a href="https://github.com/laoiseearle/spanish-memory-game">Github</a>
+    </footer>
+    <script type="text/javascript" src="vocab.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
