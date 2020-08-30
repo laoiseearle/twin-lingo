@@ -61,7 +61,7 @@ const colors = [
 
 const animals = [
   'dog : perro',
-  'gato : cat',
+  'cat : gato',
   'cow : vaca',
   'horse : caballo',
   'elephant : elefante',
