@@ -1,4 +1,5 @@
-let previousCard, selectedCard;
+let previousCard;
+let selectedCard;
 let clickCounter = 0;
 let currentlyFlipping = false;
 const wordSet = [verbs, colors, animals, emotions];
@@ -15,7 +16,7 @@ const correctGuess = (prev, current) => {
 
   if (everyCardCorrect(Array.from(cardsBack))) {
     // Shows last card before starting new game
-    setTimeout(function () {
+    setTimeout(() => {
       start();
     }, 800);
   }
@@ -23,7 +24,7 @@ const correctGuess = (prev, current) => {
 
 const incorrectGuess = (prev, current) => {
   // Shows cards before flipping them
-  setTimeout(function () {
+  setTimeout(() => {
     currentlyFlipping = false;
     prev.classList.remove('flip-card');
     current.classList.remove('flip-card');
@@ -33,11 +34,11 @@ const incorrectGuess = (prev, current) => {
 };
 
 const cardGuess = (prev, current) => {
-  let arr = wordSet[getWordSet()];
+  const arr = wordSet[getWordSet()];
 
   if (
-    arr.includes(prev.innerText + ' : ' + current.innerText) ||
-    arr.includes(current.innerText + ' : ' + prev.innerText)
+    arr.includes(`${prev.innerText} : ${current.innerText}`) ||
+    arr.includes(`${current.innerText} : ${prev.innerText}`)
   ) {
     correctGuess(prev, current);
   } else {
@@ -51,7 +52,7 @@ const cardClick = e => {
     return;
   }
   currentlyFlipping = true;
-  clickCounter++;
+  clickCounter += 1;
   selectedCard = e.currentTarget;
   selectedCard.classList.add('flip-card');
   selectedCard.removeEventListener('click', cardClick);
@@ -75,11 +76,11 @@ const setUpCards = arr => {
 
 // Selects 12 random words from wordset and pushes them into a new array
 const createArray = arr => {
-  let selectedWords = [];
+  const selectedWords = [];
 
   while (selectedWords.length !== 12) {
-    let randomWord = randomWordFromArray(arr);
-    let newWord = arr[randomWord].split(' : ');
+    const randomWord = randomWordFromArray(arr);
+    const newWord = arr[randomWord].split(' : ');
 
     if (!selectedWords.includes(newWord[0])) {
       selectedWords.push(newWord[0], newWord[1]);
@@ -100,7 +101,7 @@ const resetGame = () => {
 const start = () => {
   resetGame();
   // Prevents words from showing before flip animation finishes
-  setTimeout(function () {
+  setTimeout(() => {
     createArray(wordSet[getWordSet()]);
   }, 600);
 };
