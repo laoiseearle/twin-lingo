@@ -1,3 +1,5 @@
+import { verbs, colors, animals, emotions } from './vocab.js';
+
 let previousCard;
 let selectedCard;
 let clickCounter = 0;

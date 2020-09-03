@@ -100,3 +100,5 @@ const emotions = [
   'in love : enamorado',
   'furious : furioso',
 ];
+
+export { verbs, colors, animals, emotions };
