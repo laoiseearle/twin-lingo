@@ -5,7 +5,14 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "always"
+      }
+    ]
   },
   "env": {
     "browser": true
