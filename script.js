@@ -107,4 +107,9 @@ const start = () => {
     createArray(wordSet[getWordSet()]);
   }, 600);
 };
+
+document.querySelectorAll('.radio').forEach(item => {
+  item.addEventListener('click', start);
+});
+
 start();
