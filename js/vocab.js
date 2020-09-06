@@ -41,6 +41,14 @@ const verbs = [
   'to lose : perder',
   'to remember : recordar',
   'to take : tomar',
+  'to name/call : llamar',
+  'to be : ser',
+  'to be : estar',
+  'to have : haber',
+  'to put/place : poner',
+  'to feel/regret : sentir',
+  'to exist : existir',
+  'to produce : producir',
 ];
 
 const colors = [
@@ -57,6 +65,8 @@ const colors = [
   'orange : naranja',
   'light : claro',
   'dark : oscuro',
+  'transparent : transparente',
+  'gold : dorado',
 ];
 
 const animals = [
@@ -81,6 +91,12 @@ const animals = [
   'fox : zorro',
   'bull : toro',
   'fish : pez',
+  'bird : pájaro',
+  'hamster : hámster',
+  'frog : rana',
+  'shark : tiburón',
+  'giraffe : jirafa',
+  'camel : camello',
 ];
 
 const emotions = [
