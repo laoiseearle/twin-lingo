@@ -2,7 +2,7 @@
 
 This is a memory game designed to help practice Spanish vocabulary by finding the matching Spanish and English words.
 
-<a href="https://laoiseearle.github.io/spanish-memory-game/"><img src="https://user-images.githubusercontent.com/19372021/91656308-b4b29400-eaaf-11ea-893d-3b1eb90fc1b9.gif" width="400" height="567"></a>
+<a href="https://laoiseearle.github.io/twin-lingo/"><img src="https://user-images.githubusercontent.com/19372021/111378326-97cf5e00-8699-11eb-8dde-bbed444bcc24.gif" width="400" height="567"></a>
 
 ## How to use
 
