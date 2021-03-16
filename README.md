@@ -1,4 +1,4 @@
-# Spanish Memory Game
+# TwinLingo
 
 This is a memory game designed to help practice Spanish vocabulary by finding the matching Spanish and English words.
 
@@ -6,7 +6,7 @@ This is a memory game designed to help practice Spanish vocabulary by finding th
 
 ## How to use
 
-Open the [game](https://laoiseearle.github.io/spanish-memory-game/) in your browser.
+Open the [game](https://laoiseearle.github.io/twin-lingo/) in your browser.
 
 Select a word set from the header and click on a card to flip it.
 
@@ -20,4 +20,4 @@ This project was created with:
 
 ## Contributing
 
-Pull requests are welcome. If you want to report a bug or make a suggestion for improvement, please submit an issue [here](https://github.com/laoiseearle/spanish-memory-game/issues).
+Pull requests are welcome. If you want to report a bug or make a suggestion for improvement, please submit an issue [here](https://github.com/laoiseearle/twin-lingo/issues).

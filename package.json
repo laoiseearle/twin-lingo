@@ -1,11 +1,11 @@
 {
-  "name": "spanish-memory-game",
+  "name": "twin-lingo",
   "version": "1.0.0",
   "description": "This is a memory game designed to help practice Spanish vocabulary by finding the matching Spanish and English words.",
   "main": "script.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laoiseearle/spanish-memory-game.git"
+    "url": "https://github.com/laoiseearle/twin-lingo.git"
   },
   "keywords": [
     "javascript",
@@ -17,9 +17,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/laoiseearle/spanish-memory-game/issues"
+    "url": "https://github.com/laoiseearle/twin-lingo/issues"
   },
-  "homepage": "https://github.com/laoiseearle/spanish-memory-game#readme",
+  "homepage": "https://github.com/laoiseearle/twin-lingo#readme",
   "devDependencies": {
     "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.0",
