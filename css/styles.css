@@ -15,6 +15,8 @@ body {
   width: 100vw;
   max-height: 100vh;
   max-width: 100vw;
+
+  -webkit-touch-callout: none;
 }
 
 header {
@@ -28,6 +30,15 @@ header {
   justify-content: center;
   border-bottom: 0.3rem solid #26426b;
   color: #ffffff;
+}
+
+.card,
+header {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 input[type='radio'] {
