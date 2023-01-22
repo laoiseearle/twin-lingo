@@ -8,6 +8,7 @@ const verbs = [
   'to live : vivir',
   'to swim : nadar',
   'to know : saber',
+  'to know : conocer',
   'to write : escriber',
   'to read : leer',
   'to understand : comprender',
@@ -49,6 +50,19 @@ const verbs = [
   'to feel/regret : sentir',
   'to exist : existir',
   'to produce : producir',
+  'to buy : comprar',
+  'to clean : limpiar',
+  'to lie : mentir',
+  'to smile : sonreír',
+  'to use : usar',
+  'to travel : viajar',
+  'to bring : traer',
+  'to cry : llorar',
+  'to rain : llover',
+  'to wash : lavar',
+  'to like : gustar',
+  'to grow : crecer',
+  'to cut : cortar',
 ];
 
 const colors = [
@@ -72,6 +86,7 @@ const colors = [
 const animals = [
   'dog : perro',
   'cat : gato',
+  'kitten : gatito',
   'cow : vaca',
   'horse : caballo',
   'elephant : elefante',
@@ -97,6 +112,10 @@ const animals = [
   'shark : tiburón',
   'giraffe : jirafa',
   'camel : camello',
+  'rooster : gallo',
+  'chicken : pollo',
+  'ferret : hurón',
+  'badger : tejón',
 ];
 
 const emotions = [
@@ -115,6 +134,9 @@ const emotions = [
   'busy : ocupado',
   'in love : enamorado',
   'furious : furioso',
+  'proud : orgulloso',
+  'frustrated : frustrado',
+  'jealous : celoso',
 ];
 
 export { verbs, colors, animals, emotions };
